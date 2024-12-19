@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Jackson Fan Site</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0; /* Light grey background */
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #2c3e50; /* Deep Navy Blue for classic elegance */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    header nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    header nav ul li a:hover {
+      background-color: #e74c3c; /* Classic red for hover */
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px;
+      display: none;
+      border-radius: 10px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 1000px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    /* Section-specific Background Colors */
+    #home {
+      background-color: #ffd700; /* Bright gold for the home section */
+      color: #333;
+    }
+
+    #awards {
+      background-color: #e74c3c; /* Bright red for awards section */
+      color: #fff;
+    }
+
+    #about {
+      background-color: #2980b9; /* Deep blue for about section */
+      color: #fff;
+    }
+
+    #music {
+      background-color: #8e44ad; /* Purple for music section */
+      color: #fff;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    #home h2 {
+      color: black; /* A bright yellow color for the text */
+    }
+
+    section p {
+      font-size: 1.1rem;
+      color: #fff;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    section ul {
+      list-style-type: square;
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    section img {
+      max-width: 70%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Center images in general */
+    section img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Align images side by side in the awards section */
+    #awards img {
+      max-width: 45%;
+      display: inline-block;
+      margin: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50; /* Deep Navy Blue for footer */
+      color: #fff;
+    }
+
+    footer a {
+      color: #e74c3c; /* Red links for footer */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul id="navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="active">
+    <h2>Michael Jackson: The King of Pop</h2>
+    <img src="mj_legendary.jpg" alt="Michael Jackson">
+    <p>Michael Jackson (1958-2009) was an American singer, songwriter, dancer, and record producer. Often referred to as the "King of Pop", he is regarded as one of the most influential figures in popular culture. Jackson's career as a member of The Jackson 5 made him a global star in his childhood. As a solo artist, his music videos, such as "Thriller" and "Billie Jean", are credited with transforming the medium into an art form and popular culture force.</p>
+  </section>
+
+  <section id="awards">
+    <h2>Awards and Honors</h2>
+    <p>Michael Jackson has received numerous awards and honors throughout his career, including:</p>
+    <ul>
+      <li>13 Grammy Awards</li>
+      <li>26 American Music Awards</li>
+      <li>Multiple Guinness World Records</li>
+      <li>Inducted into the Rock and Roll Hall of Fame twice</li>
+      <li>Humanitarian awards for his contributions to charity</li>
+    </ul>
+    <div>
+      <img src="grammy_award.jpg" alt="Michael Jackson Grammy Award">
+      <img src="mj_celebration.jpg" alt="Michael Jackson with his awards">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Michael Jackson</h2>
+    <p>Michael Joseph Jackson was born on August 29, 1958, in Gary, Indiana. He was the seventh of nine children in the Jackson family. His talent was evident from a young age, and he began performing with his brothers in the Jackson 5. His solo career skyrocketed in the 1980s, and he became a cultural icon.</p>
+    <p>Known for his unique voice, innovative music videos, and groundbreaking dance moves like the moonwalk, Michael Jackson's impact on music, dance, and fashion is unparalleled.</p>
+    <img src="jackson_5.jpg" alt="Jackson 5">
+  </section>
+
+  <section id="music">
+    <h2>Music and Discography</h2>
+    <p>Michael Jackson's discography includes some of the best-selling albums of all time, such as:</p>
+    <ul>
+      <li><strong>Thriller</strong> (1982) – The best-selling album of all time with iconic hits like "Thriller", "Billie Jean", and "Beat It".</li>
+      <li><strong>Bad</strong> (1987) – Featured hits like "Bad", "Smooth Criminal", and "The Way You Make Me Feel".</li>
+      <li><strong>Dangerous</strong> (1991) – Known for tracks like "Black or White", "Remember the Time", and "In the Closet".</li>
+      <li><strong>HIStory</strong> (1995) – A mix of new songs and greatest hits, featuring "Scream" and "You Are Not Alone".</li>
+    </ul>
+    <img src="mj_performance.jpg" alt="Michael Jackson performance on stage">
+  </section>
+
+  <footer>
+    <p>Website created by Komala Reddy (komalareddy975@gmail.com), 2nd BCA Student,Vignan University, Guntur.</p>
+    <p>Visit <a href="https://www.michaeljackson.com" target="_blank">Michael Jackson's Official Website</a> for more information.</p>
+  </footer>
+
+  <script>
+    const navigation = document.getElementById('navigation');
+    const sections = document.querySelectorAll('section');
+
+    navigation.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default anchor link behavior
+      if (event.target.tagName === 'A') {
+        const targetSectionId = event.target.getAttribute('href').slice(1); // Get section ID from href
+        sections.forEach((section) => {
+          section.classList.remove('active'); // Remove active class from all sections
+          if (section.id === targetSectionId) {
+            section.classList.add('active'); // Add active class to clicked section
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
